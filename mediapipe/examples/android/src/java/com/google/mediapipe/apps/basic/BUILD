@@ -59,7 +59,7 @@ cc_library(
 
 # Hello World example app.
 android_binary(
-    name = "helloworld",
+    name = "tomtit",
     assets = [
         "//mediapipe/graphs/edge_detection:mobile_gpu.binarypb",
     ],
@@ -67,7 +67,7 @@ android_binary(
     manifest = "AndroidManifest.xml",
     manifest_values = {
         "applicationId": "com.google.mediapipe.apps.basic",
-        "appName": "Hello World",
+        "appName": "Tomtit",
         "mainActivity": ".MainActivity",
         "cameraFacingFront": "False",
         "binaryGraphName": "mobile_gpu.binarypb",
