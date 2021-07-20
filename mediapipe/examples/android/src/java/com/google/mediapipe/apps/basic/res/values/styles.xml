@@ -3,8 +3,14 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        // add by guiqi on 20210719 begin
+        //全屏
         <item name="android:windowFullscreen">true</item>
+        //不显示标题
         <item name="windowNoTitle">true</item>
+        //不熄屏
+        <item name="android:keepScreenOn">true</item>
+        // add by guiqi on 20210719 end
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
